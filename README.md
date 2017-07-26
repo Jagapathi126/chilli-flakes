@@ -1,5 +1,5 @@
-<sub><sup>![build-image]</sup></sub>
-# chilli-flakes
-A global accounts package
+<img src="eatouteatwell.com/wp-content/uploads/2012/05/red-hot-chili-pepper.jpg" style="width:30px; height:30px"/>
 
-[build-image]: http://www.eatouteatwell.com/wp-content/uploads/2012/05/red-hot-chili-pepper.jpg
+chilli-flakes
+
+A global accounts package
