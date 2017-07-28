@@ -9,7 +9,10 @@
   "dependencies": {
     "joi": "^10.6.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/joi": "^10.4.0",
+    "@types/node": "^8.0.17"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
