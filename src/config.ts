@@ -1,4 +1,4 @@
-let joi = require('joi');
+import * as joi from 'joi';
 
 const configurationSchema = joi.object().keys({
   dbUrl: joi.string().required(),
@@ -7,11 +7,11 @@ const configurationSchema = joi.object().keys({
   formInputs: joi.any()
 })
 
-class Configuration {
+export class Configuration {
   constructor(config){
     const {error, value} = joi.validate(config, configurationSchema);
     if(error){
-      console.log(error);
+      throw error;
     }else{
       console.log(value);
     }
@@ -24,5 +24,3 @@ interface IConfiguration {
   tableName: string,
   formInputs: any
 }
-
-let a = new Configuration({dbUrl: "Hello", dbType:"HelloType", formInputs:{"a":"a"}});
