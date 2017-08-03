@@ -2,16 +2,20 @@
   "name": "chilli-flakes",
   "version": "1.0.0",
   "description": "A global accounts package <img src=\"http://www.eatouteatwell.com/wp-content/uploads/2012/05/red-hot-chili-pepper.jpg\" style=\"flex: 4\"/>",
-  "main": "index.js",
+  "main": "dist/index.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "joi": "^10.6.0"
+    "joi": "^10.6.0",
+    "mongoose": "4.11.4",
+    "uuid": "3.1.0"
   },
   "devDependencies": {
     "@types/joi": "^10.4.0",
-    "@types/node": "^8.0.17"
+    "@types/mongoose": "4.7.19",
+    "@types/node": "^8.0.17",
+    "@types/uuid": "3.4.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
